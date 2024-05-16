@@ -1,0 +1,39 @@
+.main-content {
+    /*background-color: #BBCEFF;*/
+    background-image: linear-gradient(to bottom, #B8BBD5,#161F6E);
+    margin-top: 50px;
+    margin-left: 53px;
+    width: 535px;
+    height: 730px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    
+}
+
+.content-group {
+    position: absolute;
+    top: 243px;
+    left: 131px;
+    width: 361px;
+    height:96px;
+}
+
+.content-group h1 {
+    color: #fff;
+    font-size: 38px;
+}
+
+.main-content button{
+    position: absolute;
+    width: 361px;
+    height: 101px;
+    top: 600px;
+    left: 131px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #fff;
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+
+}

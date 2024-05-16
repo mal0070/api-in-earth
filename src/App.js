@@ -1,4 +1,5 @@
 import React from "react";
+import Main from "./Main";
 import Intro from "./Intro.js";
 import Map from "./Map.js";
 import Education from "./Education.js";
@@ -20,6 +21,7 @@ function App () {
         </nav>
 
         <Routes>
+          <Route path="/" element={<Main />}/>
           <Route path='/intro' element={<Intro/>}/>
           <Route path='/map' element={<Map/>}/>
           <Route path='/education' element={<Education/>}/>
