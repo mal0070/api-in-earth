@@ -1,7 +1,7 @@
 import React from "react";
-import Intro from "./Intro.js";
-import Map from "./Map.js";
-import Education from "./Education.js";
+import Intro from "./components/Intro.js";
+import Map from "./components/Map.js";
+import Education from "./components/Education.js";
 import ReportRoom from "./components/ReportRoom";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './styles/App.css';
