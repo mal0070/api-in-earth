@@ -13,3 +13,11 @@
     text-decoration: none;
   }
 
+  .menu li a {
+    color: black;  /* 텍스트 색상 변경 */
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
