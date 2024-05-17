@@ -3,6 +3,7 @@ import Intro from "./components/Intro.js";
 import Map from "./components/Map.js";
 import Education from "./components/Education.js";
 import ReportRoom from "./components/ReportRoom";
+import Main from "./components/Main.js";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './styles/App.css';
 
