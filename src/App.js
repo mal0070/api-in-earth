@@ -20,6 +20,7 @@ function App () {
         </nav>
 
         <Routes>
+          <Route path="/" element={<Main />}/>
           <Route path='/intro' element={<Intro/>}/>
           <Route path='/map' element={<Map/>}/>
           <Route path='/education' element={<Education/>}/>
