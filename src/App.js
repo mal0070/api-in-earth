@@ -2,9 +2,9 @@ import React from "react";
 import Intro from "./Intro.js";
 import Map from "./Map.js";
 import Education from "./Education.js";
-import ReportRoom from "./ReportRoom.js";
+import ReportRoom from "./components/ReportRoom";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import './App.css';
+import './styles/App.css';
 
 function App () {
   return (
